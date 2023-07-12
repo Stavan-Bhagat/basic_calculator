@@ -1,94 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link href="calcstyles.css" rel="stylesheet" />
     <script src="calc.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1><b> My Calculator </b></h1>
     <div id="d2">
-    <div id="d1">
+      <div id="d1">
         <table>
-<tr>
-    <td colspan="3">
-        <input type="text" id="answer">
-    </td>
-    <td>
-        <input type="button" value="c" class="clear" onclick="clearoutput()">
-    </td>
-</tr>
-
-<tr>
-    <td>
-        <input type="button"  class="number" value="1" onclick="show('1')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="2" onclick="show('2')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="3" onclick="show('3')">
-    </td>
-    <td>
-        <input type="button" class="op" value="+" onclick="show('+')">
-    </td>
-</tr>
-
-
-<tr>
-    <td>
-        <input type="button"  class="number" value="4" onclick="show('4')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="5" onclick="show('5')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="6" onclick="show('6')">
-    </td>
-    <td>
-        <input type="button" class="op" value="-" onclick="show('-')">
-    </td>
-</tr>
-
-
-<tr>
-    <td>
-        <input type="button"  class="number" value="7" onclick="show('7')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="8" onclick="show('8')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="9" onclick="show('9')">
-    </td>
-    <td>
-        <input type="button" class="op" value="*" onclick="show('*')">
-    </td>
-</tr>
-
-
-<tr>
-    <td>
-        <input type="button"  class="point" value="." onclick="show('.')">
-    </td>
-    <td>
-        <input type="button"  class="number" value="0" onclick="show('0')">
-    </td>
-    <td>
-        <input type="button"  class="equal" value="=" onclick="solve()">
-    </td>
-    <td>
-        <input type="button" class="op" value="/" onclick="show('/')">
-    </td>
-</tr>
+          <tr>
+            <td colspan="4">
+              <input type="text" id="answer" />
+            </td>
+          </tr>
         </table>
+      </div>
+      <div>
+        <table id="t1">
+          <tr>
+            <td colspan="2" align="center">Sta1</td>
+         
+            <td colspan="2">
+              <input
+                type="button"
+                value="c"
+                class="clear"
+                onclick="clearoutput()"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="1"
+                onclick="show('1')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="2"
+                onclick="show('2')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="3"
+                onclick="show('3')"
+              />
+            </td>
+            <td>
+              <input type="button" class="op" value="+" onclick="show('+')" />
+            </td>
+          </tr>
 
+          <tr>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="4"
+                onclick="show('4')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="5"
+                onclick="show('5')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="6"
+                onclick="show('6')"
+              />
+            </td>
+            <td>
+              <input type="button" class="op" value="-" onclick="show('-')" />
+            </td>
+          </tr>
 
+          <tr>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="7"
+                onclick="show('7')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="8"
+                onclick="show('8')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="9"
+                onclick="show('9')"
+              />
+            </td>
+            <td>
+              <input type="button" class="op" value="*" onclick="show('*')" />
+            </td>
+          </tr>
 
-
-
-    </div></div>
-</body>
+          <tr>
+            <td>
+              <input
+                type="button"
+                class="point"
+                value="."
+                onclick="show('.')"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                class="number"
+                value="0"
+                onclick="show('0')"
+              />
+            </td>
+            <td>
+              <input type="button" class="equal" value="=" onclick="solve()" />
+            </td>
+            <td>
+              <input type="button" class="op" value="/" onclick="show('/')" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
