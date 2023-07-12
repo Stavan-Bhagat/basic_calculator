@@ -1,8 +1,4 @@
-#d1{
-border: 1px solid black;
-width: 86%;
-padding: 3%;
-}
+
 #d2{
     border: 1px solid black;
     width: 15%;
@@ -10,10 +6,103 @@ padding: 3%;
     padding: 2%;
     border-radius: 10px;
     position: absolute;
-    
+    background-color:#f4c43e;
+    box-shadow: 8px 15px 15px 5px ;
     }
 
+   
 body{
-    background-color: aquamarine;
-}
+    background-color:#DFCFBE;
     
+}
+ #answer{
+    height: 100px;
+    width: 220px;
+    margin-right: 20px;
+    font-size: 300%;
+    box-shadow: 0px 2px 2px 0px black;
+}   
+ #t1{
+margin-top: 10px;
+    border: #DFCFBE;
+    height: 270px;
+    width: 240px;
+    padding-right: 7px;
+ }
+ .number{
+    border-radius: 4px;
+    width: 5px;
+    border-style:outset;
+    color: rgb(233, 251, 255);
+    background-color: rgb(214, 80, 118);
+    border-color: rgb(212, 141, 55);
+    height:99%;
+    width: 99%;
+    box-shadow: 0px 2px 2px 0px black;
+ }
+ .number:hover{
+    background-color: aliceblue;
+    color: black;
+ }
+ .op{
+    border-radius: 4px;
+    width: 5px;
+    border-style:outset;
+    background-color:#926AA6 ;
+    border-color: rgb(212, 141, 55);
+    height:99%;
+    width: 99%;
+    transition-duration: 0.4s;
+    font-size: larger;
+    color:white;
+    box-shadow: 0px 2px 2px 0px rgb(137, 52, 52);
+ }
+.op:hover{
+    background-color: azure;
+    color: black;
+}
+ .point{
+    border-radius: 4px;
+    width: 5px;
+    border-style:outset;
+    background-color: rgb(85, 180, 176);
+    border-color: rgb(212, 141, 55);
+    height:99%;
+    transition-duration: 0.4s;
+    font-size:16px;
+    width: 99%;
+    box-shadow: 0px 2px 2px 0px black;
+ }
+ .point:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+ }
+ .equal{
+    border-radius: 4px;
+    width: 5px;
+    transition-duration: 0.4s;
+    border-style:outset;
+    border-color: rgb(212, 141, 55);
+    height:99%;
+    width: 99%;
+    background-color:#EDF1FF;
+    box-shadow: 0px 2px 2px 0px black;
+ }
+ .equal:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 217, 17);
+ }
+ .clear{
+    border-radius: 4px;
+    width: 5px;
+    border-style:outset;
+    transition-duration: 0.4s;
+    background-color: bisque;
+    border-color: rgb(212, 141, 55);
+    height:99%;
+    width: 99%;
+ }
+ .clear:hover{
+    color: rgb(255, 251, 251);
+    background-color: rgb(225, 18, 18);
+ }
